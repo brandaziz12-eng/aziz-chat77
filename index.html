@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>شات عزيز 🤖</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; background: #f4f4f9; }
+    input { padding: 10px; width: 250px; border-radius: 5px; border: 1px solid #ccc; }
+    button { padding: 10px; border: none; background: #4CAF50; color: white; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #45a049; }
+    .chat { margin-top: 20px; max-width: 500px; margin-left: auto; margin-right: auto; text-align: left; }
+    .msg { margin: 5px; padding: 8px; border-radius: 5px; }
+    .user { background: #d9edf7; }
+    .bot { background: #dff0d8; }
+  </style>
+</head>
+<body>
+  <h1>🤖 شات عزيز</h1>
+  <form id="chatForm">
+    <input type="text" id="message" placeholder="اكتب رسالتك هنا..." required>
+    <button type="submit">إرسال</button>
+  </form>
+  <div class="chat" id="chatBox"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
